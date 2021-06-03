@@ -51,7 +51,7 @@ class Linkedlist{
 					key.data = j.data;
 					j.data = temp;
 				}
-				j=j.nextNode;
+				j = j.nextNode;
 			}
 			currentNode = currentNode.nextNode;
 		}

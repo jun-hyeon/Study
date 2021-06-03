@@ -1,4 +1,4 @@
-package algorithm;
+package bubblesort;
 
 class Node{
 	int data;
