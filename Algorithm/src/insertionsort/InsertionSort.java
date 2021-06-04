@@ -25,14 +25,19 @@ class Linkedlist{
 	}
 	
 	public void add(int data) {
+		
 		Node node = new Node(data);
+		
 		if(length == 0) {
+			
 			this.head = node;
 		}else {
+			
 			Node currentNode = head;
 			while(currentNode.nextNode != null) {
 				currentNode = currentNode.nextNode;
 			}
+			
 			currentNode.nextNode = node;
 		}
 		length++;

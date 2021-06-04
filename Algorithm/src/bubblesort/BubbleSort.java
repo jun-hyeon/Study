@@ -40,11 +40,15 @@ class Linkedlist{
 	
 	public void sort() {
 		if(length > 1) {
+			
 			for(int i = 0; i < length; i++) {
+				
 				Node currentNode = head;
 				Node next = head.nextNode;
 				for(int j = 0; j < length-1; j++) {
+					
 					if(currentNode.data > next.data) {
+						
 					int temp = currentNode.data;
                     currentNode.data = next.data;
                     next.data = temp;
